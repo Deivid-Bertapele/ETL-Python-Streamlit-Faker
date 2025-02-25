@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  streamlit:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    container_name: docker_app_streamlit
+    ports: 
+      - "8081:8081"
+    volumes:
+      - .:/app
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped
+    networks:
+      - streamlit-network
+
+networks:
+  streamlit-network:
+    driver: bridge 

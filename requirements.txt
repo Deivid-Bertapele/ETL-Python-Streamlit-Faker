@@ -1,0 +1,7 @@
+Faker
+matplotlib
+numpy
+pandas
+seaborn
+streamlit
+xlsxwriter
