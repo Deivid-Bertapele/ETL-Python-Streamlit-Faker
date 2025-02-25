@@ -8,7 +8,7 @@
 
 - Clone o repositório:
 
-- git clone :  https://github.com/Deivid-Bertapele/Streamlit_Docker_Faker.git
+- git clone :  https://github.com/Deivid-Bertapele/ETL-Python-Streamlit-Faker.git
 
 - Diretório : cd/src
 
